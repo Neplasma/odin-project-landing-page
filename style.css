@@ -63,6 +63,8 @@ button {
     width: 100px;
     color: #f9faf8;
     border: 1px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .information {
@@ -99,6 +101,7 @@ button {
       width: 100px;
       height: 100px;
       border: 3px solid #3882f6;
+      border-radius: 10px;
 }
 
 .quote {
@@ -107,7 +110,7 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-    padding: 48px 72px;
+    padding: 48px 72px 32px;
 }
 
 .author {
@@ -119,15 +122,21 @@ button {
 
 .banner {
     margin: 36px;
-    gap: 36px;
     display: flex;
-    background-color: #3882f6;
+    justify-content: center;
     align-items: center;
+    
+}
+
+.popup {
+    display: flex;
     padding: 32px;
-    justify-content: space-evenly;
-    align-self: center;
     color: #f9faf8;
-    flex: 1;
+    border-radius: 25px;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
 }
 
 .one {
